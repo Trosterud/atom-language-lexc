@@ -1,0 +1,54 @@
+'scopeName': 'source.lexc'
+'name': 'Lexc'
+'fileTypes': ['.lexc']
+# Feel free to organize the names. Follow naming conventions: http://manual.macromates.com/en/language_grammars.html#naming_conventions
+# But keep in mind that a minimal theme will only assign styles to 10 of the 11 root groups. Which means creative naming liberties are okay if it helps colouring.
+# Also, need so solve the ^V and all the other custom triggers
+
+'patterns': [
+  {
+    # Lexicon titles
+    'match': '(LEXICON\\s([^\\s]+)|Multichar_Symbols)'
+    'name': 'entity.name.section.lexc'
+  },
+  {
+    # Sublexicon
+    'match': '\\s([\\S]+)\\s*;'
+    'captures':
+      '1':
+          'name': 'entity.name.section.lexc'
+      '2':
+          'name': 'string.quoted.single.lexc'
+   'name': 'meta.function.lexc'
+    },
+    {
+     # Tags
+     'begin': '\\+'
+     'beginCaptures':
+       '0':
+           'name': 'markup.quote.lexc'
+     'end': '\:'
+     'endCaptures':
+       '0':
+           'name': 'string.quoted.single.lexc'
+     'name': 'markup.quote.lexc'
+     # Remember to have different colours, ie. names, for the colon and the rest of the string
+    },
+    {
+      # Suffiksgrense og orddeling
+      'match': '(%>|#)'
+      'name': 'comment.percentage.lexc'
+    },
+    {
+      'match': ':'
+      'name': 'storage.type.lexc'
+    },
+    {
+      'begin': '!'
+      'end': '\\n'
+    'name': 'comment.line.lexc'
+    },
+    {
+        # Last rule
+    }
+]

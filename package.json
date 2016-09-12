@@ -1,0 +1,17 @@
+{
+  "name": "language-lexc",
+  "version": "0.0.0",
+  "description": "Lexc language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trosterud/language-lexc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trosterud/language-lexc/issues"
+  },
+  "license": "MIT"
+}
