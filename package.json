@@ -8,10 +8,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Trosterud/language-lexc.git"
+    "url": "https://github.com/Trosterud/atom-language-lexc"
   },
   "bugs": {
-    "url": "https://github.com/Trosterud/language-lexc/issues"
+    "url": "https://github.com/Trosterud/atom-language-lexc/issues"
   },
   "license": "MIT"
 }
