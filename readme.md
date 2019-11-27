@@ -6,9 +6,9 @@ A niche but amazing language I used for work which had no syntax highlighting an
 
 The one-liner to install in terminal (if you have the atom package manager apm installed):
 
-´´´bash
+```bash
 apm install language-lexc
-´´´
+```
 
 Or if you don't have the atom package manager or just you prefer graphically you can either do it in Atom:
 
